@@ -1,0 +1,45 @@
+<html>
+   <head>
+    <title>grid</title>
+   </head>
+   <style>
+    .one{
+        display: grid;
+       
+        gap: 2px;
+
+    }
+    .item1{
+        background-color: rgb(178, 238, 104);
+        text-align: center;
+        display: grid;
+        height: 100px;
+       
+    }
+    .item2{
+        background-color: aquamarine;
+        
+       
+        padding: 50px;
+        height: 100px;
+  
+    }
+    .main{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding:3px;
+       justify-content: space-evenly;
+    }
+    
+   
+   </style>
+   <body>
+        <div class="item1">header</div>
+        <div class="main">
+        <div class="item2">Menu</div>
+        <div class="item2">home</div>
+        <div class="item2">contact</div>
+        </div> 
+        <div class="item1">footer</div>
+   </body>
+</html>
